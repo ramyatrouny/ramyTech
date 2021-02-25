@@ -1,0 +1,139 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 22%, rgba(0, 212, 255, 1) 60%);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo>img {
+    object-fit: contain;
+}
+
+h3 {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 10px;
+    margin: 15px 0;
+    text-shadow: 2px 2px 5px red;
+    user-select: none;
+}
+
+.socialMedia {
+    height: 80px;
+    display: flex;
+    place-items: center;
+    width: 300px;
+    justify-content: space-around;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.socialMedia>* {
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.socialMedia>i {
+    padding: 9px;
+    border-radius: 8px;
+}
+
+.socialMedia>i:first-child {
+    background: #000;
+}
+
+.socialMedia>i:nth-child(2) {
+    background: #FF0000;
+}
+
+.socialMedia>i:nth-child(3) {
+    background: #7289DA;
+}
+
+.socialMedia>i:nth-child(4) {
+    background: #0E76A8;
+}
+
+.socialMedia>i:last-child {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.btnBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+
+
+.btnBody>.btn {
+    background: #0c0c0c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    .socialMedia {
+        width: 290px;
+    }
+
+    .socialMedia>i {
+        padding: 8px;
+        font-size: 1.8rem;
+    }
+
+    .btnBody {
+        width: 100%;
+    }
+
+    .btnBody>.btn {
+        margin: 5px 0;
+    }
+
+}
+
+.btnBody>.btn>p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnBody>.btn>p:first-child {
+    font-size: 1rem;
+}
+
+.btnBody>.btn>p:last-child {
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+.btnBody>.btn>p:last-child {
+    color: lightgrey;
+}
+
+.btnBody>.btn:hover {
+    background: #1b1b1b;
+    box-shadow: none;
+}
