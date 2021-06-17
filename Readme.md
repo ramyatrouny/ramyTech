@@ -1,11 +1,11 @@
 # RamyTech Website 
 
-RamyTech website is built over a mock of Tap link
+RamyTech website is just to proof to anyone that you can still break lighthouse score with 100 everywhere.
 
-## Technology
+## Technology Used
 
-HTML
-SASS
+- HTML
+- SASS
 
 ## Contributing
 Feel free to fork this website to build your own web application
